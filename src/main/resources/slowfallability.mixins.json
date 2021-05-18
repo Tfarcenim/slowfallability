@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "tfar.slowfallability.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "slowfallability.refmap.json",
+  "mixins": [
+    "AttributeModifierAccess",
+    "DisplayEffectsScreenMixin",
+    "LivingEntityAccess"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8"
+}
